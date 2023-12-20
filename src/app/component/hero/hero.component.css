@@ -1,0 +1,45 @@
+.hero{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-image: url('https://img.freepik.com/free-photo/low-angle-tall-building-grayscale_23-2148230393.jpg?size=626&ext=jpg&ga=GA1.1.75531900.1702223728&semt=ais');
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Apply styles for screens that are 768 pixels wide or smaller (typically medium screens) */
+    h1 {
+        font-size: 40px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .buttons button{
+        margin-bottom: 10px;
+    }
+    
+}
+

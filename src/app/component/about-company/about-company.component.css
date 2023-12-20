@@ -1,0 +1,20 @@
+.imgCol{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url('https://img.freepik.com/free-psd/isolated-set-four-white-business-cards_125540-1136.jpg?size=626&ext=jpg&ga=GA1.1.75531900.1702223728&semt=ais');
+    background-size: cover;
+    border: 1px solid;
+    background-position: center;
+}
+.textCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+    .imgCol{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }  
+}
