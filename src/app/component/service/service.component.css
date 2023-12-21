@@ -1,0 +1,22 @@
+p{
+    font-size: 18px;
+}
+.imgCol{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url('https://img.freepik.com/free-psd/relaxed-businessman-typing-his-computer_1154-406.jpg?size=626&ext=jpg&ga=GA1.1.75531900.1702223728&semt=ais');
+    background-size: cover;
+    border: 1px solid;
+}
+.col-10{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

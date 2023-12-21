@@ -11,6 +11,9 @@ import { ContactComponent } from './page/contact/contact.component';
 import { HeroComponent } from './component/hero/hero.component';
 import { SliderComponent } from './component/slider/slider.component';
 import { AboutCompanyComponent } from './component/about-company/about-company.component';
+import { ServiceComponent } from './component/service/service.component';
+import { FlexibleComponent } from './component/flexible/flexible.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { AboutCompanyComponent } from './component/about-company/about-company.c
     ContactComponent,
     HeroComponent,
     SliderComponent,
-    AboutCompanyComponent
+    AboutCompanyComponent,
+    ServiceComponent,
+    FlexibleComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
