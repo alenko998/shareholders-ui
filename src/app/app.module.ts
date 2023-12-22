@@ -14,6 +14,9 @@ import { AboutCompanyComponent } from './component/about-company/about-company.c
 import { ServiceComponent } from './component/service/service.component';
 import { FlexibleComponent } from './component/flexible/flexible.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { AboutPageAboutComponent } from './component/about-page-about/about-page-about.component';
+import { BelieveComponent } from './component/believe/believe.component';
+import { ImgPlaceholderComponent } from './component/img-placeholder/img-placeholder.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { FooterComponent } from './component/footer/footer.component';
     AboutCompanyComponent,
     ServiceComponent,
     FlexibleComponent,
-    FooterComponent
+    FooterComponent,
+    AboutPageAboutComponent,
+    BelieveComponent,
+    ImgPlaceholderComponent
   ],
   imports: [
     BrowserModule,
