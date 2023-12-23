@@ -17,6 +17,9 @@ import { FooterComponent } from './component/footer/footer.component';
 import { AboutPageAboutComponent } from './component/about-page-about/about-page-about.component';
 import { BelieveComponent } from './component/believe/believe.component';
 import { ImgPlaceholderComponent } from './component/img-placeholder/img-placeholder.component';
+import { CardsComponent } from './component/cards/cards.component';
+import { SolveComponent } from './component/solve/solve.component';
+import { NewsletterComponent } from './component/newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { ImgPlaceholderComponent } from './component/img-placeholder/img-placeho
     FooterComponent,
     AboutPageAboutComponent,
     BelieveComponent,
-    ImgPlaceholderComponent
+    ImgPlaceholderComponent,
+    CardsComponent,
+    SolveComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
